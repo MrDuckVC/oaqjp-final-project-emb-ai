@@ -18,15 +18,15 @@ def emotion_detector_route():
     # Get the text to analyze from query parameters
     text_to_analyze = request.args.get('textToAnalyze')
     
-    if not text_to_analyze:
-        return "Error: No text provided for analysis", 400
+    if not text_to_analyze or not text_to_analyze.strip():
+        return "Invalid text! Please try again!"
     
     # Analyze the emotion
     result = emotion_detector(text_to_analyze)
     
     # Check if analysis was successful
     if result['dominant_emotion'] is None:
-        return "Error: Could not analyze emotions. Please try again.", 500
+        return "Invalid text! Please try again!"
     
     # Format the response as requested
     response_text = (
