@@ -2,7 +2,7 @@
 
 This project is a fully functional web application designed to analyze text and detect the underlying emotions.
 
-It was developed and submitted as the Capstone Project for the **IBM Back-End Development** Professional Certificate and the **IBM AI Developer** program.
+It was developed and submitted as the Capstone Project for the **IBM AI Developer** Professional Certificate.
 
 ## 📝 About the Project
 
@@ -76,12 +76,12 @@ To verify the correctness of the emotion detection algorithm, run the following 
 
 ```bash
 python test_emotion_detection.py
-```
+````
 
 ## 🎓 About the Author
 
 **Author:** Valentin Cunev
-I am a student, and I successfully completed this project and the 11-course IBM Skills Network specialization while juggling my university studies and preparing for my exam tomorrow\!
+I am a student, and I successfully completed this project and the 10-course IBM Skills Network specialization while juggling my university studies and preparing for my exam tomorrow\!
 
 ## 📄 License
 
