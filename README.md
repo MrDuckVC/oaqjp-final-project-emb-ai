@@ -78,11 +78,6 @@ To verify the correctness of the emotion detection algorithm, run the following 
 python test_emotion_detection.py
 ````
 
-## 🎓 About the Author
-
-**Author:** Valentin Cunev
-I am a student, and I successfully completed this project and the 10-course IBM Skills Network specialization while juggling my university studies and preparing for my exam tomorrow\!
-
 ## 📄 License
 
 This project is licensed under the [Apache License 2.0](https://www.google.com/search?q=LICENSE). Copyright 2020 IBM Developer Skills Network.
